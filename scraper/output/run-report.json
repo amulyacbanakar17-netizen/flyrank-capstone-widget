@@ -1,0 +1,25 @@
+{
+  "target": "Books to Scrape",
+  "pages_processed": 3,
+  "books_discovered": 20,
+  "valid_records": 20,
+  "invalid_records": 0,
+  "output_file": "books.json",
+  "validation": {
+    "required_fields": [
+      "title",
+      "price",
+      "rating",
+      "availability",
+      "upc",
+      "url"
+    ],
+    "invalid_records": []
+  },
+  "human_review_required": true,
+  "notes": [
+    "Verify important records against the original source.",
+    "Check that extracted values are interpreted correctly.",
+    "Do not reuse the scraper on another site without checking its rules and terms."
+  ]
+}
